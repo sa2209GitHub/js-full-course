@@ -1,2 +1,2 @@
 # js-full-course
-JavaScript Course
+JavaScript Full Course
