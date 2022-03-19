@@ -1,0 +1,5 @@
+console.log('***********************************')
+console.log('*                                 *')
+console.log('*   Code Runner WSL is working!   *')
+console.log('*                                 *')
+console.log('***********************************')
