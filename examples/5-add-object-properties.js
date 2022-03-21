@@ -1,4 +1,4 @@
-// Add Property Values
+// Add Object Properties
 
 const myCity = {
     city: 'Moscow',
