@@ -6,6 +6,7 @@ const myCity = {
     country: 'Russia',
 }
 
-console.log(myCity.city)
-console.log(myCity.popular)
-console.log(myCity.country)
+console.table(myCity)
+console.log('myCity.city:', myCity.city)
+console.log('myCity.popular;', myCity.popular)
+console.log('myCity.country:', myCity.country)

@@ -4,12 +4,14 @@ const myCity = {
     city: 'Moscow',
 }
 
-console.log(myCity)
+console.table(myCity)
 
+console.log('myCity.popular = false')
 myCity.popular = false
 
-console.log(myCity)
+console.table(myCity)
 
+console.log('myCity.country = \'Russia\'')
 myCity.country = 'Russia'
 
-console.log(myCity)
+console.table(myCity)

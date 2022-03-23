@@ -13,7 +13,6 @@ setTimeout(() => {
 }, 1000)
 
 // Implicit Value Retun
-
 const sum = (a, b) => a + b
 
 console.log(sum(20, 30))

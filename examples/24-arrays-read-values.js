@@ -2,7 +2,7 @@
 
 const myArray = [1, 2, true, 'A']
 
-console.log('Whole myArray:', myArray)
+console.log('const myArray = [1, 2, true, \'A\']:', myArray)
 
 console.log('myArray[0]:', myArray[0])
 console.log('myArray[1];', myArray[1])

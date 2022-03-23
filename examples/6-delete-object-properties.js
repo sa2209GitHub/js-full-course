@@ -6,12 +6,14 @@ const myCity = {
     country: 'Russia',
 }
 
-console.log(myCity)
+console.table(myCity)
 
+console.log('delete myCity.popular')
 delete myCity.popular
 
-console.log(myCity)
+console.table(myCity)
 
+console.log('delete myCity.country')
 delete myCity.country
 
-console.log(myCity)
+console.table(myCity)

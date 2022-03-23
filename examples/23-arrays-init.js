@@ -2,11 +2,11 @@
 
 // Init
 const myArr1 = [1, 2, 3, true, 'John']
-console.log(myArr1)
+console.log('const myArr1 = [1, 2, 3, true, \'John\']:', myArr1)
 
 // Init v2
 const myArr2 = new Array(1, 2, 3, true, 'John')
-console.log(myArr2)
+console.log('const myArr2 = new Array(1, 2, 3, true, \'John\'):', myArr2)
 
 const myArr3 = []
-console.log(myArr3)
+console.log('const myArr3 = []:', myArr3)

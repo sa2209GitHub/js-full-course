@@ -24,16 +24,16 @@ const objA = {
 
 const copyObjA = objA
 
-console.log('Reference Data Type', objA, objA.a, objA.b)
-console.log('Reference Data Type', copyObjA, copyObjA.a, copyObjA.b)
+console.log('Reference Data Type:', objA, objA.a, objA.b)
+console.log('Reference Data Type:', copyObjA, copyObjA.a, copyObjA.b)
 
 copyObjA.a = 22
 copyObjA.b = false
 
-console.log('Reference Data Type', objA, objA.a, objA.b)
-console.log('Reference Data Type', copyObjA, copyObjA.a, copyObjA.b)
+console.log('Reference Data Type:', objA, objA.a, objA.b)
+console.log('Reference Data Type:', copyObjA, copyObjA.a, copyObjA.b)
 
 copyObjA.c = 'abcdefg'
 
-console.log('Reference Data Type', objA, objA.a, objA.b, objA.c)
-console.log('Reference Data Type', copyObjA, copyObjA.a, copyObjA.b, copyObjA.c)
+console.log('Reference Data Type:', objA, objA.a, objA.b, objA.c)
+console.log('Reference Data Type:', copyObjA, copyObjA.a, copyObjA.b, copyObjA.c)

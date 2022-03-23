@@ -6,18 +6,22 @@ const myCity = {
     country: 'Russia',
 }
 
-console.log(myCity)
+console.table(myCity)
 
 myCity.city = 'New Yourk'
 myCity.country = 'USA'
 myCity.popular = true
 
-console.log(myCity)
+console.log('myCity.city = \'New Yourk\'')
+console.log('myCity.country = \'USA\'')
+console.log('myCity.popular = true')
 
-console.log(myCity.city)
-console.log(myCity.country)
-console.log(myCity.popular)
+console.table(myCity)
 
-console.log(myCity['city'])
-console.log(myCity['country'])
-console.log(myCity['popular'])
+console.log('myCity.city:', myCity.city)
+console.log('myCity.country:', myCity.country)
+console.log('myCity.popular:', myCity.popular)
+
+console.log('myCity[\'city\']:', myCity['city'])
+console.log('myCity[\'country\']:', myCity['country'])
+console.log('myCity[\'popular\']:', myCity['popular'])

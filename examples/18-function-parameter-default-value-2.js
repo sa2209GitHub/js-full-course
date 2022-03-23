@@ -1,5 +1,5 @@
 // Function Parameter Default Value 2
-// Implicit Object Return by '({})'
+// Implicit Object Return using '({})'
 
 const newPost = (post, addedAt = Date()) => ({
     ...post,
