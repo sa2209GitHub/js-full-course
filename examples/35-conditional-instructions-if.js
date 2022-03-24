@@ -1,5 +1,5 @@
 // Conditional Instructions
-// if
+// {if}
 
 let val = 10
 

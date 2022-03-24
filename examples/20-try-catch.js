@@ -1,4 +1,4 @@
-// Try / Catch
+// {try...catch}
 
 const functionWithError = () => {
     throw new Error('Some error')

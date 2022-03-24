@@ -1,5 +1,4 @@
-// Object Methods
-// (properties which contains the functions)
+// Object Methods (properties which contains the functions)
 
 const myServer = {
     name: 'BlaBlaServer',

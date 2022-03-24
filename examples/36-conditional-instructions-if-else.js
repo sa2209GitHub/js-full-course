@@ -1,5 +1,5 @@
 // Conditional Instructions
-// if else
+// {if...else}
 
 let x = 5
 

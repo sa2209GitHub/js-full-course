@@ -1,5 +1,5 @@
 // Conditional Instructions
-// if else if
+// {if...else if}
 
 const age = 10
 
