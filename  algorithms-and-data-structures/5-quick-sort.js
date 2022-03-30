@@ -32,5 +32,4 @@ const quickSortFn = function(array) {
     return[...quickSortFn(less), pivot, ...quickSortFn(greather)]
 }
 
-console.log('original array:', array, 'sorted array:', quickSortFn(array), 'iterations:', count)
-count = 0
+console.log('original array:', array, 'result:', quickSortFn(array), 'for', count, 'iterations'); count = 0

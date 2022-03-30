@@ -7,7 +7,6 @@
  */
 
 const array = [0, 3, 2, 5, 6, 8, 1, 9, 4, 2, 1, 2, 9, 6, 4, 1, 7, -1, -5, 23, 6, 2, 35, 6, 3, 32, 66, 82, 11, 12, 14]
-const arry1 = [0, 1, 2, 5, 7, 8, 1, -9, 3, 2, 1, 2, 9, 6, 4, 1, 7, -1, -5, 23, 6, 2, 33, 6, 3, 12, 13]
 
 let count = 0
 
@@ -28,6 +27,4 @@ const selectionSortFn = (array) => {
     return array
 }
 
-console.log('result:', selectionSortFn(array), ' iterations:', count)
-
-console.log('result:', selectionSortFn(arry1), ' iterations:', count)
+console.log('original array:', array, 'result:', selectionSortFn(array), 'for', count, 'iterations'); count = 0

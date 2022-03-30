@@ -26,4 +26,4 @@ const bubbleSortFn = (array) => {
     return array
 }
 
-console.log('result: ', bubbleSortFn(array), '  iterations: ', count)
+console.log('original array:', array, 'result:', bubbleSortFn(array), 'for', count, 'iterations'); count = 0
