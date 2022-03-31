@@ -1,7 +1,7 @@
 /**
  *  Algorithms and Data Structures
  * 
- *      Quick Sort
+ *      Recursive Quick Sort
  * 
  *  BigO compexity: O(log2n * n)
  */

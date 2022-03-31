@@ -38,7 +38,8 @@ const binarySearchNamedFn = function(array, item) {
 
 console.log('binarySearchNamedFn(array, i, 0, array.length):')
 for (let i = 0; i < 25; i++) {
-    console.log(binarySearchNamedFn(array, i, 0, array.length) != null ? 'element found at index:' : 'element not found:',
+    console.log(binarySearchNamedFn(array, i, 0, array.length) !== null ?
+                'element found at index:' : 'element not found:',
                 binarySearchNamedFn(array, i, 0, array.length), 'for', count / 2, 'iterations')
     count = 0
 }

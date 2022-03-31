@@ -43,7 +43,7 @@ const recursiveLinearSearchFn = function(array, item, index = 0) {
 
 console.log('linearSearchNamedFn(array, i):')
 for (let i = 0; i < 20; i++) {
-    console.log(`searching '${i}':`, linearSearchNamedFn(array, i) != null ?
+    console.log(`searching '${i}':`, linearSearchNamedFn(array, i) !== null ?
                 'element found at index:' : 'element not found:',
                 linearSearchNamedFn(array, i), 'for', count / 2, 'iterations')
     count = 0
@@ -51,7 +51,7 @@ for (let i = 0; i < 20; i++) {
 
 console.log('\nlinearSearchArrowFn(array, i):')
 for (let i = 0; i < 20; i++) {
-    console.log(`searching '${i}':`, linearSearchArrowFn(array, i) != null ?
+    console.log(`searching '${i}':`, linearSearchArrowFn(array, i) !== null ?
                 'element found at index:' : 'element not found:',
                 linearSearchArrowFn(array, i), 'for', count / 2, 'iterations')
     count = 0
@@ -59,7 +59,7 @@ for (let i = 0; i < 20; i++) {
 
 console.log('\nrecursiveLinearSearchFn(array, i):')
 for (let i = 0; i < 20; i++) {
-    console.log(`searching '${i}':`, recursiveLinearSearchFn(array, i) != null ?
+    console.log(`searching '${i}':`, recursiveLinearSearchFn(array, i) !== null ?
                 'element found at index:' : 'element not found:',
                 recursiveLinearSearchFn(array, i), 'for', count / 2, 'iterations')
     count = 0

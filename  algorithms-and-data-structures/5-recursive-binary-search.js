@@ -31,7 +31,7 @@ const recursiveBinarySearchFn = (array, item, start, end) => {
 
 console.log('recursiveBinarySearchFn(array, i, 0, array.length):')
 for (let i = 0; i < 25; i++) {
-    console.log(`searching '${i}':`, recursiveBinarySearchFn(array, i, 0, array.length) != null ?
+    console.log(`searching '${i}':`, recursiveBinarySearchFn(array, i, 0, array.length) !== null ?
                 'element found at index:' : 'element not found:',
                 recursiveBinarySearchFn(array, i, 0, array.length), 'for', count / 2, 'iterations')
     count = 0

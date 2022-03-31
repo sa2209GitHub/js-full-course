@@ -6,6 +6,16 @@
  *  Big O complexity: O(?)
  */
 
+//  const matrix = [
+//     [0, 1, 1, 0, 0, 0, 0],
+//     [0, 0, 0, 0, 1, 0, 0],
+//     [0, 0, 0, 1, 0, 1, 0],
+//     [0, 0, 0, 0, 1, 0, 0],
+//     [0, 0, 0, 0, 0, 0, 1],
+//     [0, 0, 0, 0, 1, 0, 0],
+//     [0, 0, 0, 0, 0, 0, 0]
+// ]
+
 const graph = {}
 graph.a = ['b', 'c']
 graph.b = ['f']
@@ -39,29 +49,29 @@ const breadthSearchFn = (graph, start, end) => {
 }
 
 x = 'a'; y = 'g'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 x = 'a'; y = 'b'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 x = 'a'; y = 'c'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 x = 'a'; y = 'd'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 x = 'a'; y = 'e'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 x = 'a'; y = 'f'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 
 x = 'a'; y = 'x'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 x = 'a'; y = 'y'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
 
 x = 'a'; y = 'z'
-console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist!` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
+console.log(breadthSearchFn(graph, x, y) ? `The path from '${x}' to '${y}' exist` : `The path from '${x}' to '${y}' does not exist`, 'in', count, 'steps'); count = 0
