@@ -7,7 +7,7 @@
  */
 
 const cacheFn = (fn) => {
-    const cache = {}
+    const cache = []
     
     return function (n) {
 
