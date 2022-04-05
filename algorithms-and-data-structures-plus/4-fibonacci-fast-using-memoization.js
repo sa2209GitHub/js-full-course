@@ -12,7 +12,7 @@ const fibonacciMemoizationFn = (n, mem) => {
         return n
     }
 
-    if (mem[n] !== -1) {
+    if (mem[n] !== null) {
         return mem[n];
     }
 
@@ -25,6 +25,6 @@ n = 97
 
 const mem = new Array(n + 1)
 
-mem.fill(-1)
+mem.fill(null)
 
 console.log(fibonacciMemoizationFn(n, mem))

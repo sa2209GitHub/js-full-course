@@ -7,13 +7,6 @@
  */
 
 // Cache Method
-const fibonacciFn = (n) => {
-    if (n === 0 || n === 1) {
-        return n
-    }
-    return cachedFibonacciFn(n - 1) + cachedFibonacciFn(n - 2)
-}
-
 const cacheFn = (fn) => {
     const cache = []
     
@@ -29,8 +22,14 @@ const cacheFn = (fn) => {
     }
 }
 
-const cachedFibonacciFn = cacheFn(fibonacciFn)
+const fibonacciFn = (n) => {
+    if (n === 0 || n === 1) {
+        return n
+    }
+    return cachedFibonacciFn(n - 1) + cachedFibonacciFn(n - 2)
+}
 
+const cachedFibonacciFn = cacheFn(fibonacciFn)
 
 console.log(cachedFibonacciFn(0))
 console.log(cachedFibonacciFn(1))

@@ -3,7 +3,7 @@
  * 
  *      Binary Search Tree
  * 
- *  Big O complexity: O(log2n)
+ *  Big O complexity: O(log(N))
  */
 
 class BinaryTree {
