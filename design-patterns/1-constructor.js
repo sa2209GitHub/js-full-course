@@ -1,5 +1,5 @@
 /**
- *  Design Patterns
+ *  Creational Design Patterns
  * 
  *      Constructor
  */
