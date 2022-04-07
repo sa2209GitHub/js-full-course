@@ -1,6 +1,0 @@
-/**
- *  Behavioral Design Patterns
- * 
- *      State
- */
-
