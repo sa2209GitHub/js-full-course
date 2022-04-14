@@ -1,6 +1,6 @@
 /**
- *  What is the context of 'this'.
- *  How call, bind, apply work.
+ *  What is the context of 'this'
+ *  How call, bind, apply works
  * 
  *      Lesson 2
  */

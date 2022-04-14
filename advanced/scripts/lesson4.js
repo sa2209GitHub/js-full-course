@@ -1,7 +1,7 @@
 /**
- *  Asynchrony.
- *  What is Event Loop.
- *  JS SetTimeout 0
+ *  Asynchrony
+ *  What is Event Loop
+ *  JS SetTimeout() 0
  * 
  *      Lesson 4
  */
